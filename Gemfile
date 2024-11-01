@@ -86,6 +86,14 @@ gem "spree_frontend"
 gem "spree_auth_devise"
 gem "spree_gateway"
 gem "spree_i18n"
+gem 'spree_multi_vendor'
+gem 'spree_stripe_terminal', github: 'ShopFelixGray/spree_stripe_terminal'
+gem 'spree_volume_pricing', github: 'spree-contrib/spree_volume_pricing'
+gem 'spree_products_qa', git: 'https://github.com/TruemarkDev/spree_products_qa.git', branch: 'master'
+gem 'spree_searchkick', github: 'spree-contrib/spree_searchkick'
+gem 'spree_related_products', github: 'spree-contrib/spree_related_products', branch: '3-1-stable'
+gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
+gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
 
 # only needed for MacOS and Ruby 3.0
 gem 'sassc', github: 'sass/sassc-ruby', branch: 'master'
